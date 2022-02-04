@@ -1,0 +1,38 @@
+.presents-wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/background-hp.webp);
+    height: calc(100vh - 240px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    grid-gap: 150px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.myself-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius:160px;
+    border:5px solid #666;
+}
+
+.presents-wrapper a {
+    color: #cbcbcc;
+    font-style: italic;
+}
+
+.text-presents {
+    letter-spacing: 1px;
+    margin: 5px 0px 5px 0px;
+    width: 600px;
+    border: 1px solid #0b2331;
+    border-radius: 10px;
+    background: #cbcbcb8f;
+    color: #0b2331;
+}

@@ -1,0 +1,50 @@
+.hero-section {
+    height: calc(100vh - 160px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-column-contact {
+    background-image: url(../../images/background-hp.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-one {
+    padding: 1px 20px;
+    background-color: #f5a43f;
+    color: #0b2331;
+    width: 290px;
+    text-align: center;
+}
+
+.right-column-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #0b2331;
+}
+
+.item-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.25em;
+    grid-gap: 50px;
+}
+
+.social-contact {
+    color: #f5a43f;
+    width: 163px;
+}
+
+.item-contact i {
+    color: #f5a43f;
+}

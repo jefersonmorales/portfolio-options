@@ -1,0 +1,71 @@
+.nav-wrapper-home {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5a43f;
+    padding: 30px;
+    color: #0b2331;
+    font-size: 16px;
+}
+
+.left-column {
+    width: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left-column i, .person-icon i {
+    font-size: 30px;
+}
+
+.address-text {
+    margin-left: 15px;
+}
+
+.center-column {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 45px;
+}
+
+.center-column img {
+    width: 55px;
+    height: 55px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper>.nav-item {
+    width: 98px;
+    text-align: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #242525;
+}
+
+.nav-item :hover {
+    color: #d0e8f5;
+    letter-spacing: 2px;
+}
+
+.right-column {
+    width: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.person-name {
+    margin-right: 15px;
+}
